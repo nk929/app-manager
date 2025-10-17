@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 업로드 가이드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6">
+        <h2 class="text-2xl font-bold mb-6">📷 로고 이미지 업로드 가이드</h2>
+        
+        <div class="space-y-6">
+            <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-lg mb-2">방법 1: 프로젝트에 직접 업로드</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>노트북의 로고 이미지를 복사</li>
+                    <li>이 프로젝트의 <code class="bg-gray-100 px-2 py-1 rounded">images/</code> 폴더에 업로드</li>
+                    <li>앱 등록 시 아이콘 URL에 <code class="bg-gray-100 px-2 py-1 rounded">images/파일명.png</code> 입력</li>
+                </ol>
+                <p class="text-sm text-green-600 mt-2">✅ 추천: 빠르고 안정적</p>
+            </div>
+            
+            <div class="border-l-4 border-yellow-500 pl-4">
+                <h3 class="font-semibold text-lg mb-2">방법 2: 온라인 이미지 호스팅 사용</h3>
+                <ul class="list-disc list-inside space-y-1 text-gray-700">
+                    <li><strong>Imgur</strong>: imgur.com (무료, 간편)</li>
+                    <li><strong>GitHub</strong>: 이슈에 이미지 드래그앤드롭</li>
+                    <li><strong>Google Drive</strong>: 공개 링크 생성</li>
+                    <li><strong>Cloudinary</strong>: cloudinary.com</li>
+                </ul>
+            </div>
+            
+            <div class="border-l-4 border-green-500 pl-4">
+                <h3 class="font-semibold text-lg mb-2">방법 3: 파비콘 자동 가져오기</h3>
+                <p class="text-gray-700">많은 AI 서비스들은 웹사이트 파비콘을 사용할 수 있습니다:</p>
+                <code class="bg-gray-100 px-2 py-1 rounded block mt-2">https://웹사이트주소/favicon.ico</code>
+                <p class="text-sm text-blue-600 mt-2">예: https://chat.openai.com/favicon.ico</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

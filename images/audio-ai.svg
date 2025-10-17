@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="audio-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="audio-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <circle cx="32" cy="32" r="30" fill="url(#audio-gradient)" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Microphone -->
+  <g fill="#FFFFFF">
+    <!-- Mic body -->
+    <rect x="28" y="18" width="8" height="12" rx="4" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Mic stand -->
+    <rect x="31" y="30" width="2" height="8" rx="1"/>
+    <!-- Mic base -->
+    <rect x="26" y="38" width="12" height="3" rx="1.5"/>
+  </g>
+  
+  <!-- Sound waves -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8">
+    <!-- Left side waves -->
+    <path d="M 18 24 Q 14 28, 18 32 Q 14 36, 18 40" stroke-linecap="round"/>
+    <path d="M 14 20 Q 8 28, 14 36 Q 8 44, 14 52" stroke-linecap="round" opacity="0.6"/>
+    
+    <!-- Right side waves -->
+    <path d="M 46 24 Q 50 28, 46 32 Q 50 36, 46 40" stroke-linecap="round"/>
+    <path d="M 50 20 Q 56 28, 50 36 Q 56 44, 50 52" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  
+  <!-- Digital waveform display -->
+  <g fill="#FFFFFF" opacity="0.7">
+    <rect x="20" y="45" width="1" height="4" rx="0.5"/>
+    <rect x="22" y="43" width="1" height="8" rx="0.5"/>
+    <rect x="24" y="46" width="1" height="2" rx="0.5"/>
+    <rect x="26" y="44" width="1" height="6" rx="0.5"/>
+    <rect x="28" y="42" width="1" height="10" rx="0.5"/>
+    <rect x="30" y="45" width="1" height="4" rx="0.5"/>
+    <rect x="32" y="43" width="1" height="8" rx="0.5"/>
+    <rect x="34" y="46" width="1" height="2" rx="0.5"/>
+    <rect x="36" y="44" width="1" height="6" rx="0.5"/>
+    <rect x="38" y="42" width="1" height="10" rx="0.5"/>
+    <rect x="40" y="45" width="1" height="4" rx="0.5"/>
+    <rect x="42" y="43" width="1" height="8" rx="0.5"/>
+    <rect x="44" y="46" width="1" height="2" rx="0.5"/>
+  </g>
+  
+  <!-- AI Circuit pattern -->
+  <g stroke="#FFFFFF" stroke-width="0.8" fill="none" opacity="0.5">
+    <circle cx="45" cy="15" r="2"/>
+    <circle cx="50" cy="12" r="1.5"/>
+    <circle cx="48" cy="18" r="1"/>
+    <line x1="45" y1="15" x2="50" y2="12"/>
+    <line x1="45" y1="15" x2="48" y2="18"/>
+    <line x1="50" y1="12" x2="48" y2="18"/>
+    <!-- Small connection dots -->
+    <circle cx="47" cy="13.5" r="0.5" fill="#FFFFFF"/>
+    <circle cx="46" cy="16.5" r="0.5" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Volume indicator -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <rect x="40" y="26" width="2" height="2" rx="1"/>
+    <rect x="43" y="24" width="2" height="6" rx="1"/>
+    <rect x="46" y="22" width="2" height="10" rx="1"/>
+  </g>
+  
+  <!-- Glow effect -->
+  <circle cx="32" cy="32" r="30" fill="url(#audio-glow)"/>
+</svg>

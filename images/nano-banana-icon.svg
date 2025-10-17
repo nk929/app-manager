@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="banana-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#banana-gradient)" stroke="#E6A000" stroke-width="2"/>
+  
+  <!-- Banana shape -->
+  <path d="M20 35 Q25 25, 35 30 Q45 35, 44 45 Q42 50, 38 48 Q28 43, 22 40 Q18 38, 20 35 Z" 
+        fill="#FFF5DC" stroke="#E6A000" stroke-width="1"/>
+  
+  <!-- Banana curves/lines -->
+  <path d="M22 37 Q30 32, 38 37" stroke="#E6A000" stroke-width="1" fill="none"/>
+  <path d="M23 40 Q30 36, 37 40" stroke="#E6A000" stroke-width="1" fill="none"/>
+  
+  <!-- AI sparkles -->
+  <circle cx="28" cy="28" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="40" cy="25" r="1" fill="white" opacity="0.8"/>
+  <circle cx="45" cy="40" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="25" cy="48" r="1" fill="white" opacity="0.8"/>
+  
+  <!-- Small "AI" text -->
+  <text x="32" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="6" font-weight="bold">AI</text>
+</svg>
