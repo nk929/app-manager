@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 앱 매니저 - 테스트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-gray-900 mb-4">🤖 AI 앱 매니저</h1>
+            <p class="text-gray-600 mb-8">GitHub Pages 배포 테스트</p>
+            
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold mb-4">배포 상태 확인</h2>
+                <div id="status" class="text-gray-600">로딩 중...</div>
+            </div>
+            
+            <div class="mt-8">
+                <a href="./index.html" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors">
+                    메인 페이지로 이동
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const statusDiv = document.getElementById('status');
+            statusDiv.innerHTML = `
+                <div class="text-green-600 font-semibold">✅ GitHub Pages 배포 성공!</div>
+                <div class="text-sm text-gray-500 mt-2">현재 시간: ${new Date().toLocaleString('ko-KR')}</div>
+                <div class="text-sm text-gray-500">URL: ${window.location.href}</div>
+            `;
+        });
+    </script>
+</body>
+</html>

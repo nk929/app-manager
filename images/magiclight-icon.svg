@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="magiclight-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#9370DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4169E1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <circle cx="32" cy="32" r="30" fill="url(#magiclight-gradient)" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Magic wand -->
+  <path d="M20 40 L40 20 L42 22 L22 42 Z" fill="white" stroke="#FFD700" stroke-width="1"/>
+  <circle cx="41" cy="21" r="2" fill="#FFD700"/>
+  
+  <!-- Magic sparkles -->
+  <g filter="url(#glow)">
+    <path d="M45 15 L47 17 L45 19 L43 17 Z" fill="white"/>
+    <path d="M46 16 L46 18" stroke="white" stroke-width="1"/>
+    <path d="M45 17 L47 17" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <g filter="url(#glow)">
+    <path d="M18 25 L19 26 L18 27 L17 26 Z" fill="white"/>
+    <path d="M18 25.5 L18 26.5" stroke="white" stroke-width="0.5"/>
+    <path d="M17.5 26 L18.5 26" stroke="white" stroke-width="0.5"/>
+  </g>
+  
+  <g filter="url(#glow)">
+    <path d="M50 35 L51.5 36.5 L50 38 L48.5 36.5 Z" fill="white"/>
+    <path d="M49.5 36.5 L50.5 36.5" stroke="white" stroke-width="0.5"/>
+    <path d="M50 36 L50 37" stroke="white" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Light rays -->
+  <g opacity="0.8">
+    <path d="M32 12 L32 8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M44.5 17.5 L47.5 14.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M52 32 L56 32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M44.5 46.5 L47.5 49.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M19.5 17.5 L16.5 14.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M12 32 L8 32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <text x="32" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="5" font-weight="bold">MAGICLIGHT</text>
+</svg>

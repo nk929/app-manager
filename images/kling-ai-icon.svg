@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="kling-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45B7D1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="32" cy="32" r="30" fill="url(#kling-gradient)" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Kling "K" stylized -->
+  <path d="M20 18 L20 46 L24 46 L24 34 L32 42 L37 42 L27 32 L37 22 L32 22 L24 30 L24 18 L20 18" fill="white"/>
+  
+  <!-- Video/film elements -->
+  <rect x="42" y="24" width="8" height="6" fill="white" opacity="0.8" rx="1"/>
+  <rect x="42" y="34" width="8" height="6" fill="white" opacity="0.8" rx="1"/>
+  
+  <!-- Film strip holes -->
+  <circle cx="44" cy="26" r="1" fill="#FF6B6B"/>
+  <circle cx="48" cy="26" r="1" fill="#4ECDC4"/>
+  <circle cx="44" cy="36" r="1" fill="#45B7D1"/>
+  <circle cx="48" cy="36" r="1" fill="#FF6B6B"/>
+  
+  <!-- Play button -->
+  <path d="M12 28 L18 32 L12 36 Z" fill="white" opacity="0.7"/>
+  
+  <!-- Motion lines -->
+  <path d="M40 20 Q44 16, 48 20" stroke="white" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M40 44 Q44 48, 48 44" stroke="white" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <text x="32" y="56" text-anchor="middle" fill="white" font-family="sans-serif" font-size="6" font-weight="bold">KLING AI</text>
+</svg>
