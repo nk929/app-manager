@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="seedream-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#5B73FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9C27B0;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#E91E63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF5722;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="seedream-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <circle cx="32" cy="32" r="30" fill="url(#seedream-gradient)" stroke="#1565C0" stroke-width="2"/>
+  
+  <!-- Seed symbol -->
+  <g fill="#FFFFFF">
+    <!-- Main seed body -->
+    <ellipse cx="32" cy="32" rx="8" ry="12" stroke="#E3F2FD" stroke-width="1"/>
+    <!-- Seed split line -->
+    <line x1="32" y1="20" x2="32" y2="44" stroke="#5B73FF" stroke-width="2"/>
+    <!-- Inner seed pattern -->
+    <ellipse cx="28" cy="32" rx="3" ry="6" fill="#5B73FF" opacity="0.7"/>
+    <ellipse cx="36" cy="32" rx="3" ry="6" fill="#9C27B0" opacity="0.7"/>
+  </g>
+  
+  <!-- Growing sprouts -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Left sprout -->
+    <path d="M 25 22 Q 20 18, 18 14 Q 16 12, 14 14" stroke-linecap="round"/>
+    <path d="M 18 14 Q 16 16, 14 14 Q 12 12, 14 10" stroke-linecap="round"/>
+    
+    <!-- Right sprout -->
+    <path d="M 39 22 Q 44 18, 46 14 Q 48 12, 50 14" stroke-linecap="round"/>
+    <path d="M 46 14 Q 48 16, 50 14 Q 52 12, 50 10" stroke-linecap="round"/>
+    
+    <!-- Center top sprout -->
+    <path d="M 32 20 Q 32 16, 32 12 Q 30 10, 34 10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Leaves on sprouts -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <ellipse cx="16" cy="14" rx="2" ry="3" transform="rotate(-30 16 14)"/>
+    <ellipse cx="48" cy="14" rx="2" ry="3" transform="rotate(30 48 14)"/>
+    <ellipse cx="32" cy="12" rx="2" ry="3"/>
+  </g>
+  
+  <!-- Dream clouds around -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <!-- Cloud 1 -->
+    <circle cx="12" cy="28" r="3"/>
+    <circle cx="14" cy="26" r="2"/>
+    <circle cx="16" cy="28" r="2.5"/>
+    
+    <!-- Cloud 2 -->
+    <circle cx="50" cy="36" r="3"/>
+    <circle cx="52" cy="34" r="2"/>
+    <circle cx="54" cy="36" r="2.5"/>
+    
+    <!-- Cloud 3 -->
+    <circle cx="16" cy="48" r="2.5"/>
+    <circle cx="18" cy="46" r="1.5"/>
+    <circle cx="20" cy="48" r="2"/>
+  </g>
+  
+  <!-- 2K quality indicators -->
+  <g fill="#FFFFFF" opacity="0.7">
+    <rect x="44" y="46" width="1.5" height="4" rx="0.75"/>
+    <rect x="46" y="44" width="1.5" height="6" rx="0.75"/>
+    <rect x="48" y="45" width="1.5" height="5" rx="0.75"/>
+    <rect x="50" y="43" width="1.5" height="7" rx="0.75"/>
+    <rect x="52" y="45" width="1.5" height="5" rx="0.75"/>
+  </g>
+  
+  <!-- Text layout grid pattern -->
+  <g stroke="#FFFFFF" stroke-width="1" opacity="0.4">
+    <line x1="10" y1="54" x2="28" y2="54"/>
+    <line x1="10" y1="56" x2="24" y2="56"/>
+    <line x1="10" y1="58" x2="26" y2="58"/>
+  </g>
+  
+  <!-- ByteDance/TikTok influence - musical notes -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <ellipse cx="52" cy="22" rx="1.5" ry="1" transform="rotate(-20 52 22)"/>
+    <rect x="53" y="18" width="0.8" height="4" rx="0.4"/>
+    <path d="M 53.8 18 Q 55 17, 55 19 Q 54 18, 53.8 19"/>
+  </g>
+  
+  <!-- Glow effect -->
+  <circle cx="32" cy="32" r="30" fill="url(#seedream-glow)"/>
+</svg>

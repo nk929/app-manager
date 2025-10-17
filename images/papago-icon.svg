@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="papago-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00C73C;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00D644;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00E047;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="32" cy="32" r="30" fill="url(#papago-gradient)" stroke="#00B839" stroke-width="2"/>
+  
+  <!-- Papago parrot-inspired design -->
+  <ellipse cx="32" cy="30" rx="12" ry="8" fill="white" opacity="0.9"/>
+  
+  <!-- Parrot beak -->
+  <path d="M20 28 Q16 26, 18 30 Q20 32, 22 30 Z" fill="#FF6B35"/>
+  
+  <!-- Eyes -->
+  <circle cx="28" cy="28" r="2" fill="#00C73C"/>
+  <circle cx="36" cy="28" r="2" fill="#00C73C"/>
+  <circle cx="28" cy="28" r="1" fill="white"/>
+  <circle cx="36" cy="28" r="1" fill="white"/>
+  
+  <!-- Speech bubble -->
+  <ellipse cx="45" cy="20" rx="8" ry="5" fill="white" opacity="0.8"/>
+  <path d="M40 22 L37 26 L42 24 Z" fill="white" opacity="0.8"/>
+  
+  <!-- Text in speech bubble -->
+  <text x="45" y="22" text-anchor="middle" fill="#00C73C" font-family="sans-serif" font-size="6" font-weight="bold">안녕</text>
+  
+  <!-- Wing -->
+  <ellipse cx="25" cy="35" rx="6" ry="4" fill="white" opacity="0.6" transform="rotate(-20 25 35)"/>
+  
+  <text x="32" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="6" font-weight="bold">PAPAGO</text>
+</svg>

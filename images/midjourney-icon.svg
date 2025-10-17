@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="midjourney-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B68EE;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9370DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8A2BE2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="32" cy="32" r="30" fill="url(#midjourney-gradient)" stroke="#6A5ACD" stroke-width="2"/>
+  
+  <!-- Stylized MJ logo -->
+  <path d="M18 42 L18 22 L22 22 L30 35 L38 22 L42 22 L42 42 L38 42 L38 30 L32 40 L26 30 L26 42 L18 42" fill="white"/>
+  
+  <!-- Journey path -->
+  <path d="M45 25 Q48 28, 45 31 Q42 34, 45 37" stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <text x="32" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="5" font-weight="bold">MIDJOURNEY</text>
+</svg>

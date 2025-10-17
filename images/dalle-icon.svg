@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="dalle-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF8E53;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B9D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="32" cy="32" r="30" fill="url(#dalle-gradient)" stroke="#E85A4F" stroke-width="2"/>
+  
+  <!-- Abstract art brush strokes -->
+  <path d="M20 25 Q32 20, 44 25 Q40 35, 32 32 Q24 35, 20 25" fill="white" opacity="0.9"/>
+  <path d="M18 35 Q30 40, 42 35 Q38 45, 30 42 Q22 45, 18 35" fill="white" opacity="0.7"/>
+  
+  <!-- Paint drops -->
+  <circle cx="28" cy="28" r="2" fill="white" opacity="0.8"/>
+  <circle cx="36" cy="30" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="25" cy="40" r="1" fill="white" opacity="0.8"/>
+  
+  <text x="32" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="6" font-weight="bold">DALL-E</text>
+</svg>
